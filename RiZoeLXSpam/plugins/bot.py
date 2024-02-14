@@ -13,8 +13,8 @@ from time import time
 from datetime import datetime
 
 pongg = PING_MSG if ALIVE_PIC else "ʀɪᴢᴏᴇʟ X sᴘᴀᴍ"
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
-Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝗥𝗶𝗭𝗼𝗲𝗟 𝗫 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲."
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ab27a835bc80d376af076.jpg"
+Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝐌𝐚𝐫𝐚𝐭𝐡𝐢 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲."
 
 rizoel = f"✯ {Alivemsg} ✯\n\n"
 rizoel += f"═══════════════════\n"
@@ -41,11 +41,11 @@ async def alive(event):
                                   caption=rizoel,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DNHxHELL")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/caption_marathi_status"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/Marathi_Chatting_143")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/MrRizoel/SpamBot")
+        Button.url("• ʀᴇᴘᴏ •", "https://t.me/lover_jerry")
         ]
         ]
         )
