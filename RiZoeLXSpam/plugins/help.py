@@ -5,7 +5,7 @@ from time import time
 from datetime import datetime
 from RiZoeLXSpam import CMD_HNDLR as hl
     
-HELP_PIC = "https://telegra.ph/file/9acc785291052c8f8998d.jpg"
+HELP_PIC = "https://telegra.ph/file/ab27a835bc80d376af076.jpg"
 
 Riz_Help = "__Click On Below Buttons for help__"
 
@@ -34,7 +34,7 @@ async def help(event):
             Button.inline("• Extra •", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Marathi_Chatting_143")
            ],
            ],
            )              
@@ -93,7 +93,7 @@ i) {hl}dreplyraid <replying to user>
 ii) {hl}dreplyraid <username>
 
 
-**© @RiZoeLX**
+**© @lover_jerry**
 """
 
 spam_msg = f"""
@@ -122,7 +122,7 @@ i) {hl}pornspam <count>
 command:
 i) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
-** © @RiZoeLX**
+** © @lover_jerry**
 """                     
            
            
@@ -149,13 +149,13 @@ async def helpback(event):
             Button.inline("Extra cmds", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Marathi_Chatting_143")
            ],
            ],
         )           
    else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own 𝐌𝐚𝐫𝐚𝐭𝐡𝐢 Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -183,7 +183,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own 𝐌𝐚𝐫𝐚𝐭𝐡𝐢 Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -210,7 +210,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own 𝐌𝐚𝐫𝐚𝐭𝐡𝐢 Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -238,7 +238,7 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own 𝐌𝐚𝐫𝐚𝐭𝐡𝐢 Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
 
